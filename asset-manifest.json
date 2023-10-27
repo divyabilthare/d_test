@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e4b4f9c8.css",
+    "main.js": "./static/js/main.0192f58a.js",
+    "static/js/787.aeb43945.chunk.js": "./static/js/787.aeb43945.chunk.js",
+    "static/media/backg.webp": "./static/media/backg.4e40e89e97f501e51c93.webp",
+    "static/media/img2.jpg": "./static/media/img2.20c4be62dfb29f15350a.jpg",
+    "static/media/web.png": "./static/media/web.f378bba0b961f783f8ae.png",
+    "static/media/founder.png": "./static/media/founder.57c3b522899da6116c92.png",
+    "static/media/inurum logo.jpeg": "./static/media/inurum logo.8171ad0c62306aa85148.jpeg",
+    "static/media/img.webp": "./static/media/img.4ecc592de309d7794002.webp",
+    "static/media/about2.jpg": "./static/media/about2.78b1c29f492d2a9afe2f.jpg",
+    "static/media/brand.jpeg": "./static/media/brand.e527cdefb8552dcaa842.jpeg",
+    "static/media/ab1.jpg.webp": "./static/media/ab1.jpg.d48eeb4c148aea34ca41.webp",
+    "static/media/Iot.jpg": "./static/media/Iot.9ed9b28e30ca16f32f35.jpg",
+    "static/media/androapp.jpg": "./static/media/androapp.2b5631a3c8c0f679f479.jpg",
+    "static/media/flu.jpg": "./static/media/flu.9a65ed0cc35cee12af5a.jpg",
+    "index.html": "./index.html",
+    "main.e4b4f9c8.css.map": "./static/css/main.e4b4f9c8.css.map",
+    "main.0192f58a.js.map": "./static/js/main.0192f58a.js.map",
+    "787.aeb43945.chunk.js.map": "./static/js/787.aeb43945.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4b4f9c8.css",
+    "static/js/main.0192f58a.js"
+  ]
+}
