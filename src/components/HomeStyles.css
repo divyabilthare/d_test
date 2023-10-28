@@ -1,0 +1,90 @@
+
+
+/* For smaller screens, reduce margins and padding */
+@media (max-width: 768px) {
+    .right {
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .left {
+        margin-right: 20px;
+        text-align: justify;
+    }
+
+    .left-content h1, .left h1 {
+        font-weight: bold;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .paragraph {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* Center-align text for HomeTwo-contrainer on all screens */
+.HomeTwo-contrainer h1 {
+    font-weight: bold;
+    text-align: center;
+}
+.HomeTwo-contrainer p{
+    text-align:center;
+}
+/* Center-align text for Homefour-container on all screens */
+.Homefour-container h1, .Homefour-container p {
+    text-align: center;
+}
+
+/* For Homefive-container, adjust the height for smaller screens */
+.Homefive-container {
+    text-align: center;
+    background-color: #EFF2FF;
+    margin-top: 50px;
+    height: auto; /* Remove fixed height for responsive behavior */
+    padding: 20px; /* Add padding to separate content */
+}
+
+/* Center-align text for Homesix-container on all screens */
+.Homesix-container {
+    text-align: center;
+}
+
+.Homesix-container p {
+    font-weight: bold;
+}
+
+/* For smaller screens, reduce margins in HomeTwo-contrainer */
+@media (max-width: 768px) {
+    .HomeTwo-contrainer h1, .HomeTwo-contrainer p {
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+}
+.HomeTwo-container {
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    .HomeTwo-container {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .HomeTwo-container {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 992px) {
+    .HomeTwo-container {
+        font-size: 36px;
+    }
+}
+
+
+  

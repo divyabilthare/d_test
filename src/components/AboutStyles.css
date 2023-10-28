@@ -1,0 +1,43 @@
+
+.about-container {
+    text-align: center;
+    color:black;
+    font :22px "Times New Roman", Times;
+    
+}
+.about-container h1{
+    font-weight: bold;
+}
+
+
+.image-container {
+    background-image: url('../image/img2.jpg');
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Remove the incorrect text-align property */
+}
+.container{
+    height: 80vh;
+    
+}
+.container h1{
+  font-weight: bold;
+  color:black;
+}
+.container p{
+    color:black;
+    font :22px   "Times New Roman", Times;
+    text-align: justify;
+}
+
+
+
+
+

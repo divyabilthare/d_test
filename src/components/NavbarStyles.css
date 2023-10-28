@@ -1,0 +1,109 @@
+/* Base styles for the navbar */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f5fd;
+  padding: 5px 40px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0px 20px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #343F52;
+  transition: ease-in-out;
+  text-align: center;
+}
+
+#navbar li a:hover,
+#navbar li a.active:hover {
+  color: #3f78e0;
+}
+
+.button {
+  background-color: #3f78e0;
+  color: #f1f5fd;
+  font-size: 1.3rem;
+  font-weight: 600;
+  height: 50px;
+  border: none;
+  border-radius: 24px; /* Simplified border radius */
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+/* Dropdown menu styles */
+#navbar li {
+  position: relative;
+}
+
+#navbar li:hover .dropdown-menu {
+  display: block;
+}
+
+#navbar .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f1f5fd;
+  border: 1px solid #ccc;
+  width: 300px; /* Adjust the width as needed */
+}
+
+#navbar .dropdown-menu li {
+  padding: 10px;
+  
+}
+
+#navbar .dropdown-menu li a {
+  color: #343F52;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#navbar .dropdown-menu li a:hover {
+  color: #3f78e0;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 700px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .menu-button {
+    display: block;
+    margin-top: 10px;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+
+  #navbar li {
+    margin: 5px 0;
+  }
+}
+@media (max-width: 767px)
+{
+    max-width: 767px;
+}
+
